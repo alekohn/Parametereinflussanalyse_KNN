@@ -1,4 +1,5 @@
 function [Trainmin, netstruct] = Narx_Training(ID, FD, N, H, input, target, Trys)
+
 %% Parameter Netz-Architektur
 tic
     

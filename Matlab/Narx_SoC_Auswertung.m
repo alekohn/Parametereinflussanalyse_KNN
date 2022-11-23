@@ -2,6 +2,7 @@ clear all;
 close all;
 clc;
 
+
 %% NARX_Auswertung
 load('SoCErg2')
 [V, Imin] = min(ErgTrain2(:,1));
